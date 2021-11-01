@@ -1,0 +1,163 @@
+
+/* rock-salt-regular - latin */
+@font-face {
+    font-family: 'Rock Salt';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/rock-salt-v11-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/rock-salt-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/rock-salt-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/rock-salt-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/rock-salt-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/rock-salt-v11-latin-regular.svg#RockSalt') format('svg'); /* Legacy iOS */
+  }
+#title{
+    font-family: 'Rock Salt';
+    color: black;
+    font-size: 50px; 
+}
+#tabcontainer{
+  order: 2;
+  display: flex;
+  border: 1px solid transparent;
+}
+#tabsSidebar{
+  width: 300px;
+  flex-shrink: 1;
+  background-color: transparent;
+}
+.tablinks{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  width: calc(100%/3);
+  float: left;
+  outline: none;
+  cursor: pointer;
+}
+.tablinks--active{
+  background:transparent;
+}
+.tablinks:not(:last-of-type){
+  border: 1px solid transparent;
+}
+.tablinks:active{
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  background:transparent;
+}
+.tablinks:hover{
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  background:transparent;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+
+}
+
+.tablinks.active{
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  background:transparent;
+}
+#description{
+    margin-top: 40px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px; 
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+img{
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%; 
+  height: 100%;
+  width: auto;
+}
+body{
+    background-image: url("pizzeria2.jpg");
+}
+#homecontainer{
+  margin-top: 20px;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  opacity: 0.8;
+  order: 4;
+  align-items: center;
+  justify-content: center;
+}
+
+#chefimgcontainer{
+  margin-top: 20px;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#menucontainer{
+  margin-top: 20px;
+  height: 600px;
+  width: 600px;
+  background-color: black;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  order: 4;
+}
+.menuitem{
+  margin-left: 20px;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.itemtitle{
+  font-family: 'Rock Salt';
+  font-size: 30px;
+  font-weight: bold;
+}
+.itemdescription{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: blanchedalmond;
+}
+#contactcontainer{
+  margin-top: 20px;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  opacity: 0.8;
+  order: 4;
+  align-items: center;
+  justify-content: center;
+}
+.symbolimg{
+  max-width: 50px; height: auto;
+}
+.contactitems{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
